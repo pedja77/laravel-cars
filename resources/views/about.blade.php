@@ -65,6 +65,6 @@
         </style>
     </head>
     <body>
-        <h1>Welcome to Cars Project</h1>
+        About us.
     </body>
 </html>
