@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
         <!-- Styles -->
-        <style>
+        <!-- <style>
             html, body {
                 background-color: #fff;
                 color: #636b6f;
@@ -62,9 +62,10 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
-        </style>
+        </style> -->
     </head>
     <body>
-        <h1>Welcome to Cars Project</h1>
+        <h1>Welcome {{ $name }}</h1>
+        <p>I'm {{$age}} years old.</p>
     </body>
 </html>
