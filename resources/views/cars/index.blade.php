@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    Cars
+    Cars in stock
 @endsection
 
 @section('content')
