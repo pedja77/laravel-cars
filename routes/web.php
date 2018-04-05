@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/cars', 'CarsController@index')->name('all-cars');
+
+Route::get('/cars/{id}', 'CarsController@show')->name('single-car');
