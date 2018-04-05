@@ -5,7 +5,8 @@
 @endsection
 
 @section('content')
-   <table>
+    <h3 class="text-center">Car details:</h3>
+   <table class="table">
         <tr>
             <th>Make</th>
             <th>Model</th>
